@@ -161,3 +161,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Gmail
 - Use App Password if 2FA is enabled. (2022-08-31)
 
+## Format
+- One email per line in mail_lists.txt. (2022-01-02)
+
