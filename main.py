@@ -17,6 +17,7 @@ from smtpengine import SmtpEngine
 # SMTP engine handles both SSL and STARTTLS
 import smtplib
 
+# Window uses grid layout for alignment
 # ScrolledText used for long messages
 WHITE = "#FFF"
 BLACK = "#000"
