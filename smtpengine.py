@@ -90,6 +90,7 @@ class SmtpEngine:
     def smtp_error(self):
 # Recipients read from file at init
 # One message sent per recipient
+# Recipients read from file at init
         mb.showerror(title="SMTP Connection error", message=f"{self.smtp_ref}")
 
     def option_invalid(self):
