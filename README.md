@@ -104,3 +104,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Requirements
 - tkinter (usually bundled with Python). (2022-09-04)
 
+## Notes
+- Always use a valid SMTP server address. (2022-01-11)
+
