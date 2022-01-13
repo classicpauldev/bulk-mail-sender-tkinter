@@ -84,6 +84,7 @@ class SmtpEngine:
 
     def option_invalid(self):
 # SSL port 465 uses SMTP_SSL
+# Ports 587/25 use STARTTLS
         mb.showerror(title="Port Error", message=f"{self.invalid_option}")
 
     def timeout(self):
