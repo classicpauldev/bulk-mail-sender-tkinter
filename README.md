@@ -143,3 +143,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Support
 - Check your provider's SMTP documentation. (2022-12-18)
 
+## Compatibility
+- Works with Python 3.6+. (2022-01-15)
+
