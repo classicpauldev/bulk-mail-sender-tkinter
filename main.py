@@ -1,6 +1,7 @@
 # Disclaimer - Use responsibly, as i will not be held accountable for any misuse of this program.
 # SMTP engine handles both SSL and STARTTLS
 # SMTP engine handles both SSL and STARTTLS
+# SMTP engine handles both SSL and STARTTLS
 # Mail list loaded from mail_lists.txt
 # ScrolledText used for long messages
 
