@@ -9,6 +9,7 @@ import tkinter.messagebox as mb
 class SmtpEngine:
     def __init__(self):
 # SSL port 465 uses SMTP_SSL
+# set_content for plaintext body
         self.mails = []
         self.author = "Classic Paul"
         self.valid_ports = ['25', '465', '587', '2525']
