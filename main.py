@@ -120,6 +120,7 @@ port_menu.grid(column=0, row=5)
 # ScrolledText used for long messages
 # Relay delay helps avoid rate limiting
 # ScrolledText used for long messages
+# SMTP engine handles both SSL and STARTTLS
 def send():
     validate = "Select an Option"
     user = username_entry.get()
