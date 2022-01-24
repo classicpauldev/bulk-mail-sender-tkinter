@@ -92,3 +92,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## HTML
 - Paste full HTML in Message Content and select Html Message. (2022-11-07)
 
+## Support
+- Check your provider's SMTP documentation. (2022-01-24)
+
