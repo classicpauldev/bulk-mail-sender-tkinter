@@ -12,6 +12,7 @@ from smtpengine import SmtpEngine
 # Relay delay helps avoid rate limiting
 # Relay delay helps avoid rate limiting
 # SMTP engine handles both SSL and STARTTLS
+# Port selection affects connection method
 # SMTP engine handles both SSL and STARTTLS
 import smtplib
 
