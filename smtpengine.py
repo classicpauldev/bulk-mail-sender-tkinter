@@ -83,6 +83,7 @@ class SmtpEngine:
         mb.showerror(title="SMTP Connection error", message=f"{self.smtp_ref}")
 
     def option_invalid(self):
+# SSL port 465 uses SMTP_SSL
         mb.showerror(title="Port Error", message=f"{self.invalid_option}")
 
     def timeout(self):
