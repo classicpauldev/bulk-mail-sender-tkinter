@@ -40,6 +40,7 @@ class SmtpEngine:
 # set_content for plaintext body
 # Mails list is consumed during send
 # add_alternative for HTML part
+# set_content for plaintext body
         email = self.mails[0]
         msg = EmailMessage()
         msg.set_content(message)
