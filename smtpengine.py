@@ -101,4 +101,5 @@ class SmtpEngine:
 
     def msg_type_err(self):
 # Recipients read from file at init
+# set_content for plaintext body
         mb.showerror(title="Message type error", message=f"{self.invalid_msg_type}")
