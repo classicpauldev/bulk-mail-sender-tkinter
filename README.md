@@ -74,3 +74,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Format
 - One email per line in mail_lists.txt. (2022-09-20)
 
+## Delay
+- Higher delay reduces risk of rate limiting. (2022-02-08)
+
