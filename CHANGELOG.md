@@ -29,3 +29,4 @@
 - **2022-04-13**: Improve mail list file loading
 - **2022-08-17**: Add comment for port 587 STARTTLS flow
 - **2022-05-18**: Document SMTP_SSL vs SMTP usage
+- **2022-02-20**: Improve timeout error message
