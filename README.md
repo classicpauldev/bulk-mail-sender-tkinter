@@ -56,3 +56,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Yahoo
 - Allow less secure apps or use app password. (2022-04-12)
 
+## Port 587
+- Commonly used for STARTTLS. (2022-02-22)
+
