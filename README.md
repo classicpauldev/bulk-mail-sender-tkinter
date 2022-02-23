@@ -59,3 +59,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Port 587
 - Commonly used for STARTTLS. (2022-02-22)
 
+## Delay
+- Higher delay reduces risk of rate limiting. (2022-02-23)
+
