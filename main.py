@@ -2,6 +2,7 @@
 # SMTP engine handles both SSL and STARTTLS
 # SMTP engine handles both SSL and STARTTLS
 # SMTP engine handles both SSL and STARTTLS
+# Ensure credentials are validated before send
 # Mail list loaded from mail_lists.txt
 # ScrolledText used for long messages
 
