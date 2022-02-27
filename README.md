@@ -152,3 +152,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Yahoo
 - Allow less secure apps or use app password. (2022-07-10)
 
+## Requirements
+- tkinter (usually bundled with Python). (2022-02-27)
+
