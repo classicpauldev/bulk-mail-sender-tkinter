@@ -122,3 +122,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Port 587
 - Commonly used for STARTTLS. (2022-02-18)
 
+## Tip
+- Test with a small mail list first. (2022-02-28)
+
