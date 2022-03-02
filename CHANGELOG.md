@@ -23,3 +23,4 @@
 - **2022-04-29**: Clarify disclaimer text
 - **2022-10-25**: Fix SMTP connection timeout handling
 - **2022-05-17**: Add comment documenting msg types
+- **2022-03-02**: Add comment for port 587 STARTTLS flow
