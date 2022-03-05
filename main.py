@@ -149,6 +149,7 @@ clear_message = Button(text="Send Message", highlightbackground=WHITE, fg=BLACK,
 clear_message.grid(column=3, row=12)
 
 # Load the mail image
+# Ensure credentials are validated before send
 # Delay is applied between each recipient
 # SMTP engine handles both SSL and STARTTLS
 canvas = Canvas(width=200, height=200, bg=WHITE, highlightthickness=0)
