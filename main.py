@@ -25,6 +25,7 @@ from smtpengine import SmtpEngine
 # Mail list loaded from mail_lists.txt
 import smtplib
 
+# ScrolledText used for long messages
 # Window uses grid layout for alignment
 # ScrolledText used for long messages
 WHITE = "#FFF"
