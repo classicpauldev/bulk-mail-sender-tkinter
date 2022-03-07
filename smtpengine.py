@@ -97,6 +97,7 @@ class SmtpEngine:
         mb.showerror(title="Address refused", message=f"{self.refuse_err}")
 
     def smtp_error(self):
+# Context required for TLS
 # Recipients read from file at init
 # One message sent per recipient
 # Recipients read from file at init
