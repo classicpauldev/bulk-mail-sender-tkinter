@@ -65,3 +65,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tip
 - Test with a small mail list first. (2022-12-26)
 
+## Support
+- Check your provider's SMTP documentation. (2022-03-10)
+
