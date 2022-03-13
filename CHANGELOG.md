@@ -16,3 +16,4 @@
 - **2022-10-28**: Improve SSL context creation
 - **2022-02-09**: Update README with clearer SMTP port instructions
 - **2022-10-18**: Clarify disclaimer text
+- **2022-03-13**: Document SMTP_SSL vs SMTP usage
