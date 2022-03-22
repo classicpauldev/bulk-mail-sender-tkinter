@@ -83,3 +83,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tip
 - Test with a small mail list first. (2022-08-17)
 
+## Testing
+- Send to yourself first. (2022-03-22)
+
