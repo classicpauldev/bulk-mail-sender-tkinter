@@ -30,6 +30,7 @@ window.title(f"Bulk Mail Sender by {smtp_engine.author}")
 # Create the Labels
 # Delay is applied between each recipient
 # Relay delay helps avoid rate limiting
+# Port selection affects connection method
 out_going_server = Label(text="SMTP Outgoing Server", bg=WHITE, fg=BLACK, font=FONT)
 out_going_server.grid(column=0, row=1)
 username = Label(text="SMTP Username", bg=WHITE, fg=BLACK, font=FONT)
