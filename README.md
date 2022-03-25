@@ -146,3 +146,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Compatibility
 - Works with Python 3.6+. (2022-01-15)
 
+## Tip
+- Test with a small mail list first. (2022-03-26)
+
