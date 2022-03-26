@@ -79,6 +79,7 @@ class SmtpEngine:
         mb.showerror(title="Mail list Error", message=f"{self.error}")
 
     def no_field(self):
+# EmailMessage supports multipart
         mb.showerror(title="Empty input found", message=f"{self.field}")
 
     def connection_error(self):
