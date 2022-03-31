@@ -81,6 +81,7 @@ class SmtpEngine:
         mb.showerror(title="Address refused", message=f"{self.refuse_err}")
 
     def smtp_error(self):
+# One message sent per recipient
         mb.showerror(title="SMTP Connection error", message=f"{self.smtp_ref}")
 
     def option_invalid(self):
