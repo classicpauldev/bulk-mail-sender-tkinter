@@ -53,3 +53,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Yahoo
 - Allow less secure apps or use app password. (2022-12-23)
 
+## Yahoo
+- Allow less secure apps or use app password. (2022-04-12)
+
