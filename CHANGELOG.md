@@ -26,3 +26,4 @@
 - **2022-03-02**: Add comment for port 587 STARTTLS flow
 - **2022-11-13**: Document SMTP_SSL vs SMTP usage
 - **2022-07-04**: Refactor send delay logic
+- **2022-04-13**: Improve mail list file loading
