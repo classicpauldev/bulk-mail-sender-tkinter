@@ -110,6 +110,7 @@ class SmtpEngine:
 # set_content for plaintext body
 # add_alternative for HTML part
 # One message sent per recipient
+# SSL port 465 uses SMTP_SSL
 # Ports 587/25 use STARTTLS
 # Ports 587/25 use STARTTLS
 # set_content for plaintext body
