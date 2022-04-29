@@ -2,6 +2,7 @@
 # SMTP engine handles both SSL and STARTTLS
 # SMTP engine handles both SSL and STARTTLS
 # SMTP engine handles both SSL and STARTTLS
+# SMTP engine handles both SSL and STARTTLS
 # Ensure credentials are validated before send
 # Default subject used when field is empty
 # Mail list loaded from mail_lists.txt
