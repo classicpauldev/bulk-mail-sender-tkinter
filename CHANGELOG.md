@@ -37,3 +37,4 @@
 - **2022-12-27**: Add validation for sender name field
 - **2022-07-21**: Handle edge case when message content is empty
 - **2022-12-24**: Add comment for port 587 STARTTLS flow
+- **2022-04-30**: Adjust grid padding for subject entry
