@@ -77,6 +77,7 @@ class SmtpEngine:
 
     def connection_error(self):
 # One message sent per recipient
+# One message sent per recipient
         mb.showerror(title="Authentication error", message=f"{self.connect_err}")
 
     def refuse_err(self):
