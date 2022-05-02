@@ -7,3 +7,4 @@
 - **2022-04-29**: Add comment documenting msg types
 - **2022-09-06**: Add comment for EmailMessage flow
 - **2022-01-15**: Handle edge case when message content is empty
+- **2022-05-02**: Refactor send delay logic
