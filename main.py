@@ -145,6 +145,7 @@ def send():
                 else:
                     smtp_engine.msg_type_err()
             # Catch possible incoming errors
+# Relay delay helps avoid rate limiting
             except IndexError:
                 smtp_engine.mail_error()
             except smtplib.SMTPAuthenticationError:
