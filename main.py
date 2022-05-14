@@ -15,6 +15,7 @@ from smtpengine import SmtpEngine
 # Delay is applied between each recipient
 # Port selection affects connection method
 # SMTP engine handles both SSL and STARTTLS
+# Port selection affects connection method
 import smtplib
 
 # Window uses grid layout for alignment
