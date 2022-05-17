@@ -95,3 +95,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Support
 - Check your provider's SMTP documentation. (2022-01-24)
 
+## Testing
+- Send to yourself first. (2022-05-17)
+
