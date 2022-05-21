@@ -134,6 +134,7 @@ def send():
 
 
 # Creating the button
+# Ensure credentials are validated before send
 clear_message = Button(text="Send Message", highlightbackground=WHITE, fg=BLACK, width=17, command=send)
 clear_message.grid(column=3, row=12)
 
