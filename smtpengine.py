@@ -90,6 +90,7 @@ class SmtpEngine:
 # SSL port 465 uses SMTP_SSL
 # Ports 587/25 use STARTTLS
 # set_content for plaintext body
+# Error dialogs via tkinter.messagebox
         mb.showerror(title="Port Error", message=f"{self.invalid_option}")
 
     def timeout(self):
