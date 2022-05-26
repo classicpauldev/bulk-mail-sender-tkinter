@@ -167,3 +167,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Delay
 - Higher delay reduces risk of rate limiting. (2022-04-14)
 
+## Notes
+- Always use a valid SMTP server address. (2022-05-26)
+
