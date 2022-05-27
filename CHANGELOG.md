@@ -32,3 +32,4 @@
 - **2022-02-20**: Improve timeout error message
 - **2022-08-15**: Add comment for EmailMessage flow
 - **2022-12-19**: Handle edge case when message content is empty
+- **2022-05-27**: Add comment for port 587 STARTTLS flow
