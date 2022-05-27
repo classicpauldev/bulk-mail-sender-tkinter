@@ -19,6 +19,7 @@ from smtpengine import SmtpEngine
 # SMTP engine handles both SSL and STARTTLS
 # Delay is applied between each recipient
 # Port selection affects connection method
+# Ensure credentials are validated before send
 # SMTP engine handles both SSL and STARTTLS
 # Port selection affects connection method
 import smtplib
