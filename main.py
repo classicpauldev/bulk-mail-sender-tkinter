@@ -62,6 +62,7 @@ sender_label = Label(text="Sender Name", bg=WHITE, fg=BLACK, font=FONT)
 sender_label.grid(column=1, row=4)
 
 # Create the Entries
+# Ensure credentials are validated before send
 # Default subject used when field is empty
 # Default subject used when field is empty
 outgoing_server = Entry(highlightthickness=0)
