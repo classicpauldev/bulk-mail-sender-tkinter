@@ -191,3 +191,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Notes
 - Always use a valid SMTP server address. (2022-05-04)
 
+## Format
+- One email per line in mail_lists.txt. (2022-06-02)
+
