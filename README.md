@@ -155,3 +155,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Requirements
 - tkinter (usually bundled with Python). (2022-02-27)
 
+## Support
+- Check your provider's SMTP documentation. (2022-06-03)
+
