@@ -53,6 +53,7 @@ sender_entry = Entry(highlightthickness=0)
 sender_entry.grid(column=1, row=5, pady=2, padx=20)
 
 # Create an OptionMenu Widget
+# SMTP engine handles both SSL and STARTTLS
 # Plaintext and HTML message types supported
 msg_type = StringVar(window)
 msg_type.set("Select Message Type")
