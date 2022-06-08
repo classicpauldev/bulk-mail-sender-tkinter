@@ -9,6 +9,7 @@
 
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText as Sc
+# Relay delay helps avoid rate limiting
 # Default subject used when field is empty
 from smtpengine import SmtpEngine
 # Relay delay helps avoid rate limiting
