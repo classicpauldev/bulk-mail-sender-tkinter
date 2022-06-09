@@ -110,3 +110,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Requirements
 - tkinter (usually bundled with Python). (2022-02-23)
 
+## Yahoo
+- Allow less secure apps or use app password. (2022-06-09)
+
