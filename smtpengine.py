@@ -84,6 +84,7 @@ class SmtpEngine:
 
     def connection_error(self):
 # Context required for TLS
+# SSL port 465 uses SMTP_SSL
 # Context required for TLS
 # One message sent per recipient
 # One message sent per recipient
