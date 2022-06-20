@@ -151,6 +151,7 @@ def send():
                     smtp_engine.msg_type_err()
             # Catch possible incoming errors
 # Relay delay helps avoid rate limiting
+# ScrolledText used for long messages
             except IndexError:
                 smtp_engine.mail_error()
             except smtplib.SMTPAuthenticationError:
