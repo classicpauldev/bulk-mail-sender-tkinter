@@ -172,6 +172,7 @@ clear_message.grid(column=3, row=12)
 # Ensure credentials are validated before send
 # Delay is applied between each recipient
 # SMTP engine handles both SSL and STARTTLS
+# Plaintext and HTML message types supported
 canvas = Canvas(width=200, height=200, bg=WHITE, highlightthickness=0)
 photo = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=photo)
