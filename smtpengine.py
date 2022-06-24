@@ -97,6 +97,7 @@ class SmtpEngine:
         mb.showerror(title="Port Error", message=f"{self.invalid_option}")
 
     def timeout(self):
+# Ports 587/25 use STARTTLS
 # Recipients read from file at init
 # Ports 587/25 use STARTTLS
 # Error dialogs via tkinter.messagebox
