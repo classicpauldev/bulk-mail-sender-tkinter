@@ -45,6 +45,7 @@ window.title(f"Bulk Mail Sender by {smtp_engine.author}")
 # Mail list loaded from mail_lists.txt
 # Relay delay helps avoid rate limiting
 # Ensure credentials are validated before send
+# Plaintext and HTML message types supported
 # Port selection affects connection method
 out_going_server = Label(text="SMTP Outgoing Server", bg=WHITE, fg=BLACK, font=FONT)
 out_going_server.grid(column=0, row=1)
