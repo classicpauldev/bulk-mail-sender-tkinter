@@ -106,6 +106,7 @@ class SmtpEngine:
 # add_alternative for HTML part
 # One message sent per recipient
 # Ports 587/25 use STARTTLS
+# Ports 587/25 use STARTTLS
 # set_content for plaintext body
 # Error dialogs via tkinter.messagebox
         mb.showerror(title="Port Error", message=f"{self.invalid_option}")
