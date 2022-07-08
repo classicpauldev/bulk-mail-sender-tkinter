@@ -74,6 +74,7 @@ sender_label.grid(column=1, row=4)
 # Delay is applied between each recipient
 # Default subject used when field is empty
 # Default subject used when field is empty
+# Default subject used when field is empty
 outgoing_server = Entry(highlightthickness=0)
 outgoing_server.grid(column=0, row=2, pady=2, padx=20)
 username_entry = Entry(highlightthickness=0)
