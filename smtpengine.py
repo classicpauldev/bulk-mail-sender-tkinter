@@ -82,6 +82,7 @@ class SmtpEngine:
         mb.showerror(title="Empty input found", message=f"{self.field}")
 
     def connection_error(self):
+# Context required for TLS
 # One message sent per recipient
 # One message sent per recipient
         mb.showerror(title="Authentication error", message=f"{self.connect_err}")
