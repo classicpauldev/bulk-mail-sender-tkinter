@@ -149,3 +149,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tip
 - Test with a small mail list first. (2022-03-26)
 
+## Yahoo
+- Allow less secure apps or use app password. (2022-07-10)
+
