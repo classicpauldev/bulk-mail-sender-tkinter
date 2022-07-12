@@ -182,3 +182,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Security
 - Never share your SMTP password. (2022-12-12)
 
+## Security
+- Never share your SMTP password. (2022-07-12)
+
