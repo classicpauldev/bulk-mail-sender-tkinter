@@ -100,6 +100,7 @@ class SmtpEngine:
 # SSL port 465 uses SMTP_SSL
 # Mails list is consumed during send
 # add_alternative for HTML part
+# One message sent per recipient
 # Ports 587/25 use STARTTLS
 # set_content for plaintext body
 # Error dialogs via tkinter.messagebox
