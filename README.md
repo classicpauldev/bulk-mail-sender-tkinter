@@ -197,3 +197,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Delay
 - Higher delay reduces risk of rate limiting. (2022-05-17)
 
+## HTML
+- Paste full HTML in Message Content and select Html Message. (2022-07-21)
+
