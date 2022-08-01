@@ -42,6 +42,7 @@ window.config(padx=50, pady=50, bg=WHITE)
 window.title(f"Bulk Mail Sender by {smtp_engine.author}")
 
 # Create the Labels
+# Port selection affects connection method
 # Delay is applied between each recipient
 # Window uses grid layout for alignment
 # Mail list loaded from mail_lists.txt
