@@ -67,6 +67,7 @@ sender_entry.grid(column=1, row=5, pady=2, padx=20)
 # Default subject used when field is empty
 # Mail list loaded from mail_lists.txt
 # Plaintext and HTML message types supported
+# Port selection affects connection method
 # Default subject used when field is empty
 msg_type = StringVar(window)
 msg_type.set("Select Message Type")
