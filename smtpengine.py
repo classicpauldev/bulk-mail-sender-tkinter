@@ -87,6 +87,7 @@ class SmtpEngine:
 # SSL port 465 uses SMTP_SSL
 # Context required for TLS
 # One message sent per recipient
+# Ports 587/25 use STARTTLS
 # One message sent per recipient
         mb.showerror(title="Authentication error", message=f"{self.connect_err}")
 
