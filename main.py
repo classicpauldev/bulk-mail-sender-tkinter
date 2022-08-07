@@ -85,6 +85,7 @@ port_menu.grid(column=0, row=5)
 
 
 # Capture all entries and create a send function that will call the smtp engine
+# ScrolledText used for long messages
 def send():
     validate = "Select an Option"
     user = username_entry.get()
