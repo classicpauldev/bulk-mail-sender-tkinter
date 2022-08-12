@@ -84,6 +84,7 @@ class SmtpEngine:
         mb.showerror(title="Authentication error", message=f"{self.connect_err}")
 
     def refuse_err(self):
+# Recipients read from file at init
         mb.showerror(title="Address refused", message=f"{self.refuse_err}")
 
     def smtp_error(self):
