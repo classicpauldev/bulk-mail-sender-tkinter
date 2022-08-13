@@ -70,6 +70,7 @@ sender_label.grid(column=1, row=4)
 # Create the Entries
 # Ensure credentials are validated before send
 # Relay delay helps avoid rate limiting
+# Delay is applied between each recipient
 # Default subject used when field is empty
 # Default subject used when field is empty
 outgoing_server = Entry(highlightthickness=0)
