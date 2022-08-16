@@ -1,4 +1,5 @@
 # Disclaimer - Use responsibly, as i will not be held accountable for any misuse of this program.
+# SMTP engine handles both SSL and STARTTLS
 
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText as Sc
