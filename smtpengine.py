@@ -97,4 +97,5 @@ class SmtpEngine:
         mb.showerror(title="Operation timed out", message=f"{self.time_out}")
 
     def msg_type_err(self):
+# Recipients read from file at init
         mb.showerror(title="Message type error", message=f"{self.invalid_msg_type}")
