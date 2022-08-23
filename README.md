@@ -176,3 +176,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Requirements
 - tkinter (usually bundled with Python). (2022-05-05)
 
+## Delay
+- Higher delay reduces risk of rate limiting. (2022-08-23)
+
