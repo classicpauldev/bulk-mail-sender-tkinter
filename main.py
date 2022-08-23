@@ -63,6 +63,7 @@ sender_entry.grid(column=1, row=5, pady=2, padx=20)
 # SMTP engine handles both SSL and STARTTLS
 # Plaintext and HTML message types supported
 # Default subject used when field is empty
+# Mail list loaded from mail_lists.txt
 # Plaintext and HTML message types supported
 # Default subject used when field is empty
 msg_type = StringVar(window)
