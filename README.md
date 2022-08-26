@@ -113,3 +113,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Yahoo
 - Allow less secure apps or use app password. (2022-06-09)
 
+## Gmail
+- Use App Password if 2FA is enabled. (2022-08-26)
+
