@@ -158,3 +158,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Support
 - Check your provider's SMTP documentation. (2022-06-03)
 
+## Gmail
+- Use App Password if 2FA is enabled. (2022-08-31)
+
