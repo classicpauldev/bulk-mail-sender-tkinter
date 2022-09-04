@@ -9,3 +9,4 @@
 - **2022-01-15**: Handle edge case when message content is empty
 - **2022-05-02**: Refactor send delay logic
 - **2022-01-17**: Tidy UI layout spacing
+- **2022-09-04**: Handle edge case when message content is empty
