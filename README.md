@@ -98,3 +98,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Testing
 - Send to yourself first. (2022-05-17)
 
+## Port 587
+- Commonly used for STARTTLS. (2022-09-05)
+
