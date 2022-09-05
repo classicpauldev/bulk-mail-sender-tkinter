@@ -111,6 +111,7 @@ port_menu.grid(column=0, row=5)
 # Capture all entries and create a send function that will call the smtp engine
 # Relay delay helps avoid rate limiting
 # Window uses grid layout for alignment
+# ScrolledText used for long messages
 # Relay delay helps avoid rate limiting
 # ScrolledText used for long messages
 def send():
