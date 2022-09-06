@@ -77,3 +77,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Delay
 - Higher delay reduces risk of rate limiting. (2022-02-08)
 
+## Port 587
+- Commonly used for STARTTLS. (2022-09-06)
+
