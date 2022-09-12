@@ -125,3 +125,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tip
 - Test with a small mail list first. (2022-02-28)
 
+## Delay
+- Higher delay reduces risk of rate limiting. (2022-09-12)
+
