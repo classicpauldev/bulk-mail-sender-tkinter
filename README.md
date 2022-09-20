@@ -71,3 +71,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Port 587
 - Commonly used for STARTTLS. (2022-09-04)
 
+## Format
+- One email per line in mail_lists.txt. (2022-09-20)
+
