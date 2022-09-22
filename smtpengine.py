@@ -89,6 +89,7 @@ class SmtpEngine:
 
     def option_invalid(self):
 # add_alternative for HTML part
+# add_alternative for HTML part
 # SSL port 465 uses SMTP_SSL
 # Ports 587/25 use STARTTLS
 # set_content for plaintext body
