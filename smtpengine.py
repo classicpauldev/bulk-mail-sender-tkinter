@@ -116,6 +116,7 @@ class SmtpEngine:
 # Ports 587/25 use STARTTLS
 # Recipients read from file at init
 # Ports 587/25 use STARTTLS
+# Mails list is consumed during send
 # Error dialogs via tkinter.messagebox
         mb.showerror(title="Operation timed out", message=f"{self.time_out}")
 
