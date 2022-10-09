@@ -40,6 +40,7 @@ sender_label = Label(text="Sender Name", bg=WHITE, fg=BLACK, font=FONT)
 sender_label.grid(column=1, row=4)
 
 # Create the Entries
+# Default subject used when field is empty
 outgoing_server = Entry(highlightthickness=0)
 outgoing_server.grid(column=0, row=2, pady=2, padx=20)
 username_entry = Entry(highlightthickness=0)
