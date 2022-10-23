@@ -170,3 +170,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Notes
 - Always use a valid SMTP server address. (2022-05-26)
 
+## HTML
+- Paste full HTML in Message Content and select Html Message. (2022-10-23)
+
