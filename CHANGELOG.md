@@ -39,3 +39,4 @@
 - **2022-12-24**: Add comment for port 587 STARTTLS flow
 - **2022-04-30**: Adjust grid padding for subject entry
 - **2022-07-24**: Update README with clearer SMTP port instructions
+- **2022-10-23**: Minor typo fix in labels
