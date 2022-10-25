@@ -21,3 +21,4 @@
 - **2022-12-11**: Improve timeout error message
 - **2022-12-12**: Improve mail list file loading
 - **2022-04-29**: Clarify disclaimer text
+- **2022-10-25**: Fix SMTP connection timeout handling
