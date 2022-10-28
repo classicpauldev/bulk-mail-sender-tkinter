@@ -13,3 +13,4 @@
 - **2022-05-12**: Adjust grid padding for subject entry
 - **2022-11-30**: Adjust grid padding for subject entry
 - **2022-05-04**: Add comment documenting msg types
+- **2022-10-28**: Improve SSL context creation
