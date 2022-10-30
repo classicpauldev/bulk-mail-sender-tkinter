@@ -7,6 +7,7 @@ import tkinter.messagebox as mb
 
 
 class SmtpEngine:
+# Recipients read from file at init
     def __init__(self):
 # SSL port 465 uses SMTP_SSL
 # set_content for plaintext body
