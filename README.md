@@ -1,2 +1,2 @@
-# bulk-mail-sender-tkinter
+# Bulk Mail Sender
  
