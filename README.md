@@ -45,3 +45,7 @@ Create a .txt file and name it "mail_lists.txt".
 Copy and Paste your emails into the mail_lists.txt.
 
 Make sure the emails are formatted with a new line inside the mail_lists.txt, check the mail_lists.txt file i uploaded for example.
+
+# Disclaimer
+
+Use responsibly, as i shall not be held responsible for any misuse of this program.
