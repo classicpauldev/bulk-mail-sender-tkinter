@@ -1,3 +1,5 @@
+# Disclaimer: Use responsibly, as i shall not be held responsible for any misuse of this program.
+
 from smtplib import SMTP_SSL, SMTP
 from ssl import create_default_context
 from email.message import EmailMessage
