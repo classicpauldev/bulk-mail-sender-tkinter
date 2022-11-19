@@ -44,10 +44,4 @@ Create a .txt file and name it "mail_lists.txt".
 
 Copy and Paste your emails into the mail_lists.txt.
 
-Make sure the emails are formatted with a new line inside the mail_lists.txt, below is an example.
-
-user1@email.com
-
-user2@email.com
-
-user3@email.com
+Make sure the emails are formatted with a new line inside the mail_lists.txt, check the mail_lists.txt file i uploaded for example.
