@@ -8,6 +8,7 @@ from smtpengine import SmtpEngine
 # SMTP engine handles both SSL and STARTTLS
 import smtplib
 
+# ScrolledText used for long messages
 WHITE = "#FFF"
 BLACK = "#000"
 FONT = ("Ariel", 15, "italic")
