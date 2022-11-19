@@ -12,7 +12,7 @@ smtp_engine = SmtpEngine()
 
 window = Tk()
 window.config(padx=50, pady=50, bg=WHITE)
-window.title("Bulk Plain Mail Sender")
+window.title(f"Bulk Mail Sender by {smtp_engine.author}")
 
 # Create the Labels
 out_going_server = Label(text="SMTP Outgoing Server", bg=WHITE, fg=BLACK, font=FONT)
@@ -39,9 +39,6 @@ sender_label.grid(column=1, row=4)
 # Create the Entries
 outgoing_server = Entry(highlightthickness=0)
 outgoing_server.grid(column=0, row=2, pady=2, padx=20)
-delay = Entry(highlightthickness=0)
-delay.insert(END, string="2")
-delay.grid(column=3, row=2, pady=2, padx=20)
 username_entry = Entry(highlightthickness=0)
 username_entry.grid(column=1, row=2, pady=2, padx=20)
 password_entry = Entry(highlightthickness=0, show='*')
@@ -50,28 +47,43 @@ subject_entry = Entry(highlightthickness=0, width=45)
 subject_entry.grid(column=2, row=5, columnspan=4)
 message = Sc(width=120)
 message.grid(column=0, row=11, columnspan=4)
-smtp_port = Entry(highlightthickness=0)
-smtp_port.grid(column=0, row=5, pady=2, padx=20)
 sender_entry = Entry(highlightthickness=0)
 sender_entry.grid(column=1, row=5, pady=2, padx=20)
+
+# Create an OptionMenu Widget
+msg_type = StringVar(window)
+msg_type.set("Select Message Type")
+msg_menu = OptionMenu(window, msg_type, *smtp_engine.msg_types)
+msg_menu.config(bg=WHITE, fg=BLACK, width=18)
+msg_menu.grid(column=0, row=12)
+delay_type = StringVar(window)
+delay_type.set("Select an Option")
+delay_menu = OptionMenu(window, delay_type, *smtp_engine.send_delays)
+delay_menu.config(bg=WHITE, fg=BLACK, width=16)
+delay_menu.grid(column=3, row=2)
+port_type = StringVar(window)
+port_type.set("Select an Option")
+port_menu = OptionMenu(window, port_type, *smtp_engine.valid_ports)
+port_menu.config(bg=WHITE, fg=BLACK, width=16)
+port_menu.grid(column=0, row=5)
 
 
 # Capture all entries and create a send function that will call the smtp engine
 def send():
+    validate = "Select an Option"
     user = username_entry.get()
     passwd = password_entry.get()
     msg = message.get('1.0', 'end-1c')
     subj = subject_entry.get()
     server = outgoing_server.get()
-    get_delay = delay.get()
+    get_delay = delay_type.get()
     sender = sender_entry.get()
-    port = smtp_port.get()
-    if port in smtp_engine.valid_ports:
+    port = port_type.get()
+    text_type = msg_type.get()
+    if port != validate and get_delay != validate:
         if len(user) == 0 or len(passwd) == 0 or len(server) == 0:
             smtp_engine.no_field()
         else:
-            if get_delay == '0' or get_delay == '':
-                get_delay = '1'
             if msg == '':
                 msg = "Hello World!\n\nCheers!\nClassic Paul"
             if subj == '':
@@ -80,12 +92,18 @@ def send():
                 sender = "Classic Paul"
             delay_sec = int(get_delay + '000')
             try:
-                smtp_engine.send(user, passwd, msg, subj, server, port, sender)
-                # Call our smtp_engine send method
-                if len(smtp_engine.mails) != 0:
-                    window.after(delay_sec, send)
+                if text_type != "Select Message Type":
+                    if text_type == smtp_engine.msg_types[0]:
+                        smtp_engine.send(user, passwd, msg, subj, server, port, sender, html=msg)
+                    else:
+                        smtp_engine.send(user, passwd, msg, subj, server, port, sender)
+                    # Call our smtp_engine send method
+                    if len(smtp_engine.mails) != 0:
+                        window.after(delay_sec, send)
+                    else:
+                        smtp_engine.complete()
                 else:
-                    smtp_engine.complete()
+                    smtp_engine.msg_type_err()
             # Catch possible incoming errors
             except IndexError:
                 smtp_engine.mail_error()
@@ -96,18 +114,13 @@ def send():
             except smtplib.SMTPConnectError:
                 smtp_engine.smtp_error()
     else:
-        smtp_engine.port_invalid()
+        smtp_engine.option_invalid()
 
 
-def delete():
-    message.delete('1.0', 'end-1c')
-
-
-# Creating the buttons
-send_message = Button(text="Send Message", highlightbackground=WHITE, fg=BLACK, width=18, command=send)
-send_message.grid(column=0, row=12)
-clear_message = Button(text="Clear Message", highlightbackground=WHITE, fg=BLACK, width=18, command=delete)
+# Creating the button
+clear_message = Button(text="Send Message", highlightbackground=WHITE, fg=BLACK, width=17, command=send)
 clear_message.grid(column=3, row=12)
+
 # Load the mail image
 canvas = Canvas(width=200, height=200, bg=WHITE, highlightthickness=0)
 photo = PhotoImage(file="logo.png")
