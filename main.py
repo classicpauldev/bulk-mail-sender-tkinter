@@ -1,4 +1,4 @@
-# Disclaimer: Use responsibly, as i shall not be held responsible for any misuse of this program.
+# Disclaimer - Use responsibly, as i will not be held accountable for any misuse of this program.
 
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText as Sc
