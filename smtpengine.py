@@ -45,9 +45,10 @@ class SmtpEngine:
                 with SMTP_SSL(server, port=int(port), context=create_default_context()) as connect:
                     connect.login(user, password)
                     connect.send_message(msg=msg)
-                    self.mails.remove(email)
             except TimeoutError:
                 self.timeout()
+            else:
+                self.mails.remove(email)
         else:
             try:
                 with SMTP(server, port=int(port)) as connect:
@@ -55,9 +56,10 @@ class SmtpEngine:
                     connect.ehlo()
                     connect.login(user, password)
                     connect.send_message(msg=msg)
-                    self.mails.remove(email)
             except TimeoutError:
                 self.timeout()
+            else:
+                self.mails.remove(email)
 
     def complete(self):
         mb.showinfo(title="Success", message=f"Message sent successfully to {self.count} Recipient's")
