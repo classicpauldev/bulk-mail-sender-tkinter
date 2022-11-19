@@ -48,6 +48,7 @@ class SmtpEngine:
             except TimeoutError:
                 self.timeout()
             else:
+                print(f"{email} ✅")
                 self.mails.remove(email)
         else:
             try:
@@ -59,6 +60,7 @@ class SmtpEngine:
             except TimeoutError:
                 self.timeout()
             else:
+                print(f"{email} ✅")
                 self.mails.remove(email)
 
     def complete(self):
