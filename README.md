@@ -48,4 +48,4 @@ Make sure the emails are formatted with a new line inside the mail_lists.txt, ch
 
 # Disclaimer
 
-Use responsibly, as i shall not be held responsible for any misuse of this program.
+Use responsibly, as i will not be held accountable for any misuse of this program.
