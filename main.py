@@ -1,3 +1,5 @@
+# Disclaimer: Use responsibly, as i shall not be held responsible for any misuse of this program.
+
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText as Sc
 from smtpengine import SmtpEngine
