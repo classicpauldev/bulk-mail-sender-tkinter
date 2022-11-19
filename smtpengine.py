@@ -25,10 +25,6 @@ class SmtpEngine:
             self.mail_error()
         else:
             self.mails = [''.join(user.split('\n')) for user in self.recipients]
-            # for user in self.recipients:
-            #     self.receiver = user.split('\n')
-            #     self.receiver = ''.join(self.receiver)
-            #     self.mails.append(self.receiver)
             self.count = len(self.mails)
 
     def send(self, user, password, message, subj, server, port, sender):
