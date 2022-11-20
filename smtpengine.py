@@ -4,7 +4,6 @@ from smtplib import SMTP_SSL, SMTP
 from ssl import create_default_context
 from email.message import EmailMessage
 import tkinter.messagebox as mb
-from random import choice
 
 
 class SmtpEngine:
@@ -34,7 +33,7 @@ class SmtpEngine:
             self.count = len(self.mails)
 
     def send(self, user, password, message, subj, server, port, sender, html=None):
-        email = choice(self.mails)
+        email = self.mails[0]
         msg = EmailMessage()
         msg.set_content(message)
         msg['Subject'] = subj
