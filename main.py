@@ -22,6 +22,7 @@ from smtpengine import SmtpEngine
 # Ensure credentials are validated before send
 # SMTP engine handles both SSL and STARTTLS
 # Port selection affects connection method
+# Mail list loaded from mail_lists.txt
 import smtplib
 
 # Window uses grid layout for alignment
