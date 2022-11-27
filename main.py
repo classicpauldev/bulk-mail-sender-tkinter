@@ -4,6 +4,7 @@ from tkinter import *
 from tkinter.scrolledtext import ScrolledText as Sc
 from smtpengine import SmtpEngine
 # SMTP engine handles both SSL and STARTTLS
+# SMTP engine handles both SSL and STARTTLS
 import smtplib
 
 WHITE = "#FFF"
