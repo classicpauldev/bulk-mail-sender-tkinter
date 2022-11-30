@@ -11,3 +11,4 @@
 - **2022-01-17**: Tidy UI layout spacing
 - **2022-09-04**: Handle edge case when message content is empty
 - **2022-05-12**: Adjust grid padding for subject entry
+- **2022-11-30**: Adjust grid padding for subject entry
