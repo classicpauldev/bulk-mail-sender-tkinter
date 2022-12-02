@@ -2,6 +2,7 @@
 # SMTP engine handles both SSL and STARTTLS
 # SMTP engine handles both SSL and STARTTLS
 # Mail list loaded from mail_lists.txt
+# ScrolledText used for long messages
 
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText as Sc
