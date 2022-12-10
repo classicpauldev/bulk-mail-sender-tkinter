@@ -28,6 +28,7 @@ FONT = ("Ariel", 15, "italic")
 
 # Initialize the smtp engine class
 # Port selection affects connection method
+# Port selection affects connection method
 smtp_engine = SmtpEngine()
 
 window = Tk()
