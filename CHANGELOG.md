@@ -19,3 +19,4 @@
 - **2022-03-13**: Document SMTP_SSL vs SMTP usage
 - **2022-01-31**: Document SMTP_SSL vs SMTP usage
 - **2022-12-11**: Improve timeout error message
+- **2022-12-12**: Improve mail list file loading
