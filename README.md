@@ -179,3 +179,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Delay
 - Higher delay reduces risk of rate limiting. (2022-08-23)
 
+## Security
+- Never share your SMTP password. (2022-12-12)
+
