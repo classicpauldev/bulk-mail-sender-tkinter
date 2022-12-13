@@ -91,6 +91,7 @@ class SmtpEngine:
 
     def refuse_err(self):
 # Recipients read from file at init
+# One message sent per recipient
         mb.showerror(title="Address refused", message=f"{self.refuse_err}")
 
     def smtp_error(self):
