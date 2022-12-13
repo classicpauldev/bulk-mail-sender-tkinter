@@ -35,6 +35,7 @@ class SmtpEngine:
             self.count = len(self.mails)
 
     def send(self, user, password, message, subj, server, port, sender, html=None):
+# add_alternative for HTML part
         email = self.mails[0]
         msg = EmailMessage()
         msg.set_content(message)
