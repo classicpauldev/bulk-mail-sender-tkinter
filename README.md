@@ -140,3 +140,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Gmail
 - Use App Password if 2FA is enabled. (2022-05-23)
 
+## Support
+- Check your provider's SMTP documentation. (2022-12-18)
+
