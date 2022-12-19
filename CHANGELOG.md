@@ -31,3 +31,4 @@
 - **2022-05-18**: Document SMTP_SSL vs SMTP usage
 - **2022-02-20**: Improve timeout error message
 - **2022-08-15**: Add comment for EmailMessage flow
+- **2022-12-19**: Handle edge case when message content is empty
