@@ -98,6 +98,7 @@ sender_entry.grid(column=1, row=5, pady=2, padx=20)
 # Plaintext and HTML message types supported
 # Port selection affects connection method
 # Default subject used when field is empty
+# ScrolledText used for long messages
 msg_type = StringVar(window)
 msg_type.set("Select Message Type")
 msg_menu = OptionMenu(window, msg_type, *smtp_engine.msg_types)
