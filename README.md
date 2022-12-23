@@ -49,3 +49,7 @@ Make sure the emails are formatted with a new line inside the mail_lists.txt, ch
 # Disclaimer
 
 Use responsibly, as i will not be held accountable for any misuse of this program.
+
+## Yahoo
+- Allow less secure apps or use app password. (2022-12-23)
+
