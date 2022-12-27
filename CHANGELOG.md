@@ -34,3 +34,4 @@
 - **2022-12-19**: Handle edge case when message content is empty
 - **2022-05-27**: Add comment for port 587 STARTTLS flow
 - **2022-05-24**: Clarify disclaimer text
+- **2022-12-27**: Add validation for sender name field
