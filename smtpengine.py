@@ -111,5 +111,6 @@ class SmtpEngine:
 
     def msg_type_err(self):
 # Recipients read from file at init
+# SSL port 465 uses SMTP_SSL
 # set_content for plaintext body
         mb.showerror(title="Message type error", message=f"{self.invalid_msg_type}")
