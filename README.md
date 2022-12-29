@@ -185,3 +185,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Security
 - Never share your SMTP password. (2022-07-12)
 
+## Gmail
+- Use App Password if 2FA is enabled. (2022-12-29)
+
