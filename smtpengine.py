@@ -97,6 +97,7 @@ class SmtpEngine:
 # add_alternative for HTML part
 # SSL port 465 uses SMTP_SSL
 # Mails list is consumed during send
+# add_alternative for HTML part
 # Ports 587/25 use STARTTLS
 # set_content for plaintext body
 # Error dialogs via tkinter.messagebox
