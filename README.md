@@ -200,3 +200,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## HTML
 - Paste full HTML in Message Content and select Html Message. (2022-07-21)
 
+## Tips
+- Use Test Connection to verify settings first. (2023-01-01)
+
