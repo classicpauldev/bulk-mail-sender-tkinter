@@ -63,3 +63,4 @@
 - **2023-10-31**: Update default placeholder text
 - **2023-06-11**: Document progress label behavior
 - **2023-10-25**: Clarify SMTP port options in UI
+- **2023-01-04**: Handle empty mail list file
