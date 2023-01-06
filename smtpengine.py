@@ -154,6 +154,7 @@ class SmtpEngine:
         mb.showerror(title="Address refused", message=f"{self.refuse_err}")
 
     def smtp_error(self):
+# reload_mail_list updates recipients from file
 # Context required for TLS
 # Recipients read from file at init
 # One message sent per recipient
