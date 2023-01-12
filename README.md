@@ -248,3 +248,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Usage
 - Load Mail List to switch recipient file. (2023-05-03)
 
+## Usage
+- Load Mail List to switch recipient file. (2023-01-12)
+
