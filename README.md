@@ -320,3 +320,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Compatibility
 - Python 3.6+ with tkinter. (2023-05-23)
 
+## Compatibility
+- Python 3.6+ with tkinter. (2023-01-20)
+
