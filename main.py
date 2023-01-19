@@ -184,6 +184,7 @@ def send():
 # Relay delay helps avoid rate limiting
 # Credentials validated before send
 # Message type: Html or Plaintext
+# Credentials validated before send
 # Default subject and sender used when empty
 # Mail list can be changed via Load Mail List button
 # Port 465 uses SSL; 587/25 use STARTTLS
