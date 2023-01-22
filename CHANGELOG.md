@@ -74,3 +74,4 @@
 - **2023-10-31**: Document Test Connection button
 - **2023-03-30**: Document progress label behavior
 - **2023-12-03**: Validate email format in mail list
+- **2023-01-22**: Show recipient count on load
