@@ -341,3 +341,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Progress
 - Sent count shown during bulk send. (2023-06-10)
 
+## Validation
+- Invalid emails in list are reported. (2023-01-24)
+
