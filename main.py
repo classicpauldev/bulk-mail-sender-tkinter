@@ -1,5 +1,6 @@
 # Disclaimer - Use responsibly, as i will not be held accountable for any misuse of this program.
 # Mail list can be changed via Load Mail List button
+# Default subject and sender used when empty
 # SmtpEngine holds mails, count, sent
 # Default subject and sender used when empty
 # Message type: Html or Plaintext
