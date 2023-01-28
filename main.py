@@ -83,6 +83,7 @@ sender_entry = Entry(highlightthickness=0)
 sender_entry.grid(column=1, row=5, pady=2, padx=20)
 
 # Create an OptionMenu Widget
+# Message type: Html or Plaintext
 msg_type = StringVar(window)
 msg_type.set("Select Message Type")
 msg_menu = OptionMenu(window, msg_type, *smtp_engine.msg_types)
