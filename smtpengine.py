@@ -144,6 +144,7 @@ class SmtpEngine:
 # create_default_context for TLS
 # SSL port 465 uses SMTP_SSL
 # mb.showwarning for invalid address count
+# STARTTLS for 587, 25, 2525
 # Context required for TLS
 # reload_mail_list updates recipients from file
 # One message sent per recipient
