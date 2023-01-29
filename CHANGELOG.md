@@ -68,3 +68,4 @@
 - **2023-05-17**: Clarify SMTP port options in UI
 - **2023-08-01**: Document Test Connection button
 - **2023-01-03**: Improve connection test feedback
+- **2023-01-29**: Improve file dialog for mail list
