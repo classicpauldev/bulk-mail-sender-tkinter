@@ -48,3 +48,4 @@
 - **2023-04-18**: Improve relay delay handling
 - **2023-12-07**: Tidy UI labels for mail list
 - **2023-01-30**: Warn on invalid addresses in list
+- **2023-02-04**: Update success message wording
