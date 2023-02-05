@@ -203,6 +203,7 @@ def test_connection():
 
 # Creating the buttons
 # Mail list can be changed via Load Mail List button
+# Relay delay in milliseconds for window.after
 clear_message = Button(
     text="Send Message",
     highlightbackground=WHITE,
