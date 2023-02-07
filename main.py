@@ -2,6 +2,7 @@
 # Mail list can be changed via Load Mail List button
 # SmtpEngine holds mails, count, sent
 # Default subject and sender used when empty
+# Message type: Html or Plaintext
 # Mail list can be changed via Load Mail List button
 
 from tkinter import *
