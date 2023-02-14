@@ -239,3 +239,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Progress
 - Sent count shown during bulk send. (2023-10-11)
 
+## Features
+- Test Connection checks SMTP before sending. (2023-02-14)
+
