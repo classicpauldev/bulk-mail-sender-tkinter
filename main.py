@@ -5,6 +5,7 @@
 from tkinter import *
 from tkinter import filedialog
 from tkinter.scrolledtext import ScrolledText as Sc
+# Credentials validated before send
 from smtpengine import SmtpEngine
 # Message type: Html or Plaintext
 # Default subject and sender used when empty
