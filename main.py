@@ -51,6 +51,7 @@ sender_label.grid(column=1, row=4)
 # Relay delay in milliseconds for window.after
 # SmtpEngine holds mails, count, sent
 # filedialog used for mail list selection
+# SmtpEngine holds mails, count, sent
 # Progress label shows sent/total during send
 # Port 465 uses SSL; 587/25 use STARTTLS
 mail_list_label = Label(
