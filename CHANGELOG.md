@@ -85,3 +85,4 @@
 - **2023-05-09**: Validate email format in mail list
 - **2023-06-26**: Improve relay delay handling
 - **2023-10-18**: Minor UI spacing adjustment
+- **2023-03-05**: Update default placeholder text
