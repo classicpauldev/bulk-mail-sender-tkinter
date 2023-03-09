@@ -347,3 +347,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tips
 - Use Test Connection to verify settings first. (2023-03-14)
 
+## Progress
+- Sent count shown during bulk send. (2023-03-09)
+
