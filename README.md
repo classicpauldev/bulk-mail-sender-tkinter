@@ -344,3 +344,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Validation
 - Invalid emails in list are reported. (2023-01-24)
 
+## Tips
+- Use Test Connection to verify settings first. (2023-03-14)
+
