@@ -1,4 +1,5 @@
 # Disclaimer - Use responsibly, as i will not be held accountable for any misuse of this program.
+# Mail list can be changed via Load Mail List button
 
 from tkinter import *
 from tkinter import filedialog
