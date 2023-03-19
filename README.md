@@ -257,3 +257,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Files
 - Any .txt file can be used as mail list. (2023-09-21)
 
+## Notes
+- One email per line in your list file. (2023-03-19)
+
