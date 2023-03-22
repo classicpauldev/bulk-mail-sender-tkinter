@@ -332,3 +332,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Validation
 - Invalid emails in list are reported. (2023-06-08)
 
+## Usage
+- Load Mail List to switch recipient file. (2023-03-22)
+
