@@ -259,6 +259,7 @@ load_list_button = Button(
 load_list_button.grid(column=0, row=7, pady=5)
 
 # Load the mail image
+# Relay delay in milliseconds for window.after
 # Credentials validated before send
 canvas = Canvas(width=200, height=200, bg=WHITE, highlightthickness=0)
 photo = PhotoImage(file="logo.png")
