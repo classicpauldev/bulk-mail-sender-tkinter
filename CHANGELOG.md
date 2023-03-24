@@ -75,3 +75,4 @@
 - **2023-03-30**: Document progress label behavior
 - **2023-12-03**: Validate email format in mail list
 - **2023-01-22**: Show recipient count on load
+- **2023-03-24**: Update success message wording
