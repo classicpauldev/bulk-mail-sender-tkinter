@@ -170,6 +170,7 @@ def send():
 # SmtpEngine holds mails, count, sent
 # Relay delay helps avoid rate limiting
 # Default subject and sender used when empty
+# Mail list can be changed via Load Mail List button
 # Test Connection verifies SMTP before sending
 # ScrolledText used for long messages
 # Port 465 uses SSL; 587/25 use STARTTLS
