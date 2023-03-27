@@ -80,3 +80,4 @@
 - **2023-07-07**: Update default placeholder text
 - **2023-04-22**: Add Load Mail List button
 - **2023-02-16**: Clarify SMTP port options in UI
+- **2023-03-27**: Document progress label behavior
