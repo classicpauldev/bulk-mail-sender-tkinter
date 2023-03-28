@@ -260,3 +260,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Notes
 - One email per line in your list file. (2023-03-19)
 
+## Notes
+- One email per line in your list file. (2023-03-28)
+
