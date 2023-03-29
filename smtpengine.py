@@ -174,6 +174,7 @@ class SmtpEngine:
 # Ports 587/25 use STARTTLS
 # Recipients read from file at init
 # Ports 587/25 use STARTTLS
+# Empty lines in mail list file are ignored
 # Mails list is consumed during send
 # STARTTLS for 587, 25, 2525
 # reload_mail_list updates recipients from file
