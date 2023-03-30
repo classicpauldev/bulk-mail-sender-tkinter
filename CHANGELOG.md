@@ -72,3 +72,4 @@
 - **2023-07-31**: Track sent count for progress
 - **2023-02-07**: Improve connection test feedback
 - **2023-10-31**: Document Test Connection button
+- **2023-03-30**: Document progress label behavior
