@@ -176,6 +176,7 @@ class SmtpEngine:
 # Ports 587/25 use STARTTLS
 # Empty lines in mail list file are ignored
 # Mails list is consumed during send
+# test_connection does not send any message
 # STARTTLS for 587, 25, 2525
 # reload_mail_list updates recipients from file
 # Error dialogs via tkinter.messagebox
