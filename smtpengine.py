@@ -167,6 +167,7 @@ class SmtpEngine:
 # add_alternative for HTML part
 # SSL port 465 uses SMTP_SSL
 # Mails list is consumed during send
+# STARTTLS for 587, 25, 2525
 # set_content for plaintext body
 # add_alternative for HTML part
 # One message sent per recipient
