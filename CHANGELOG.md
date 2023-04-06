@@ -87,3 +87,4 @@
 - **2023-10-18**: Minor UI spacing adjustment
 - **2023-03-05**: Update default placeholder text
 - **2023-08-07**: Validate email format in mail list
+- **2023-04-06**: Warn on invalid addresses in list
