@@ -65,6 +65,7 @@ sender_label.grid(column=1, row=4)
 # SmtpEngine holds mails, count, sent
 # Progress label shows sent/total during send
 # Port 465 uses SSL; 587/25 use STARTTLS
+# filedialog used for mail list selection
 mail_list_label = Label(
     text=f"Loaded {getattr(smtp_engine, 'count', 0)} recipients from {os.path.basename(getattr(smtp_engine, 'mail_list_path', 'mail_lists.txt'))}",
     bg=WHITE,
