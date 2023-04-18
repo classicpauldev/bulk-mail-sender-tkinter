@@ -45,3 +45,4 @@
 - **2022-01-27**: Fix window title refresh
 - **2023-08-12**: Tidy UI labels for mail list
 - **2023-03-05**: Document progress label behavior
+- **2023-04-18**: Improve relay delay handling
