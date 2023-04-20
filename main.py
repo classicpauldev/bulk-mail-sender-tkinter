@@ -173,6 +173,7 @@ def send():
             # Catch possible incoming errors
 # SmtpEngine holds mails, count, sent
 # Relay delay helps avoid rate limiting
+# Message type: Html or Plaintext
 # Default subject and sender used when empty
 # Mail list can be changed via Load Mail List button
 # Test Connection verifies SMTP before sending
