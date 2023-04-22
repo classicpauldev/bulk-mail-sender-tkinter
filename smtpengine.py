@@ -191,6 +191,7 @@ class SmtpEngine:
 # sent counter incremented after each successful send
 # set_content for plaintext body
 # add_alternative for HTML part
+# mb.showwarning for invalid address count
 # Error dialogs via tkinter.messagebox
 # create_default_context for TLS
 # Invalid emails skipped with warning
