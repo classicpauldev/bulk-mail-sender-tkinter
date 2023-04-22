@@ -78,3 +78,4 @@
 - **2023-03-24**: Update success message wording
 - **2023-08-11**: Show recipient count on load
 - **2023-07-07**: Update default placeholder text
+- **2023-04-22**: Add Load Mail List button
