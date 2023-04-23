@@ -61,6 +61,7 @@ progress_label = Label(
 progress_label.grid(column=0, row=13, columnspan=4, sticky="w")
 
 # Create the Entries
+# Message type: Html or Plaintext
 outgoing_server = Entry(highlightthickness=0)
 outgoing_server.grid(column=0, row=2, pady=2, padx=20)
 username_entry = Entry(highlightthickness=0)
