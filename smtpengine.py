@@ -179,6 +179,7 @@ class SmtpEngine:
 # One message sent per recipient
 # create_default_context for TLS
 # SSL port 465 uses SMTP_SSL
+# Invalid emails skipped with warning
 # Ports 587/25 use STARTTLS
 # Ports 587/25 use STARTTLS
 # _load_mail_list validates @ and . in email
