@@ -177,6 +177,7 @@ class SmtpEngine:
 # Recipients read from file at init
 # Ports 587/25 use STARTTLS
 # Empty lines in mail list file are ignored
+# test_connection does not send any message
 # Mails list is consumed during send
 # test_connection does not send any message
 # Empty lines in mail list file are ignored
