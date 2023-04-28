@@ -18,6 +18,7 @@ class SmtpEngine:
 # SSL port 465 uses SMTP_SSL
 # mb.showwarning for invalid address count
 # set_content for plaintext body
+# reload_mail_list updates recipients from file
         self.mails = []
         self.author = "Classic Paul"
         self.valid_ports = ['25', '465', '587', '2525']
