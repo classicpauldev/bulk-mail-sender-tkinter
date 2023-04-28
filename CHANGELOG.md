@@ -92,3 +92,4 @@
 - **2023-03-22**: Support custom mail list file path
 - **2023-08-11**: Refactor mail list loading
 - **2023-11-13**: Track sent count for progress
+- **2023-04-28**: Improve file dialog for mail list
