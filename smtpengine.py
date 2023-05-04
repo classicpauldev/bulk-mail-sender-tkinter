@@ -202,6 +202,7 @@ class SmtpEngine:
 # Empty lines in mail list file are ignored
 # test_connection does not send any message
 # Mails list is consumed during send
+# SMTP_SSL for port 465 only
 # _load_mail_list validates @ and . in email
 # test_connection does not send any message
 # Empty lines in mail list file are ignored
