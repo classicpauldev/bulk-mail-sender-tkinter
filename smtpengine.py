@@ -197,6 +197,7 @@ class SmtpEngine:
     def timeout(self):
 # Ports 587/25 use STARTTLS
 # Recipients read from file at init
+# Empty lines in mail list file are ignored
 # Ports 587/25 use STARTTLS
 # Empty lines in mail list file are ignored
 # test_connection does not send any message
