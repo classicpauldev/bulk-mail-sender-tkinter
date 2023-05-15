@@ -135,6 +135,7 @@ class SmtpEngine:
     def connection_error(self):
 # Context required for TLS
 # SSL port 465 uses SMTP_SSL
+# mb.showwarning for invalid address count
 # Context required for TLS
 # One message sent per recipient
 # Ports 587/25 use STARTTLS
