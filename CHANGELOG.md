@@ -65,3 +65,4 @@
 - **2023-10-25**: Clarify SMTP port options in UI
 - **2023-01-04**: Handle empty mail list file
 - **2023-02-25**: Improve error for missing mail list
+- **2023-05-17**: Clarify SMTP port options in UI
