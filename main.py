@@ -42,6 +42,7 @@ sender_label = Label(text="Sender Name", bg=WHITE, fg=BLACK, font=FONT)
 sender_label.grid(column=1, row=4)
 
 # Mail list and progress labels
+# SmtpEngine holds mails, count, sent
 mail_list_label = Label(
     text=f"Loaded {getattr(smtp_engine, 'count', 0)} recipients from {os.path.basename(getattr(smtp_engine, 'mail_list_path', 'mail_lists.txt'))}",
     bg=WHITE,
