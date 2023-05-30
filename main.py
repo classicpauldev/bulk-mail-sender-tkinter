@@ -29,6 +29,7 @@ window.config(padx=50, pady=50, bg=WHITE)
 window.title(f"Bulk Mail Sender by {smtp_engine.author}")
 
 # Create the Labels
+# Relay delay in milliseconds for window.after
 out_going_server = Label(text="SMTP Outgoing Server", bg=WHITE, fg=BLACK, font=FONT)
 out_going_server.grid(column=0, row=1)
 username = Label(text="SMTP Username", bg=WHITE, fg=BLACK, font=FONT)
