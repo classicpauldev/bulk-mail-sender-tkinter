@@ -140,6 +140,7 @@ class SmtpEngine:
 # SSL port 465 uses SMTP_SSL
 # mb.showwarning for invalid address count
 # Context required for TLS
+# reload_mail_list updates recipients from file
 # One message sent per recipient
 # Invalid emails skipped with warning
 # Ports 587/25 use STARTTLS
