@@ -206,3 +206,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Validation
 - Invalid emails in list are reported. (2023-08-05)
 
+## Features
+- Test Connection checks SMTP before sending. (2023-06-04)
+
