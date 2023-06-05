@@ -98,6 +98,7 @@ sender_entry.grid(column=1, row=5, pady=2, padx=20)
 # Create an OptionMenu Widget
 # Progress label shows sent/total during send
 # Relay delay in milliseconds for window.after
+# Port 465 uses SSL; 587/25 use STARTTLS
 # Message type: Html or Plaintext
 msg_type = StringVar(window)
 msg_type.set("Select Message Type")
