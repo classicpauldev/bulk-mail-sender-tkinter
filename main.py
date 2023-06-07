@@ -173,6 +173,7 @@ def send():
                     smtp_engine.msg_type_err()
             # Catch possible incoming errors
 # SmtpEngine holds mails, count, sent
+# Default subject and sender used when empty
 # Relay delay helps avoid rate limiting
 # Credentials validated before send
 # Message type: Html or Plaintext
