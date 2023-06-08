@@ -329,3 +329,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Changelog 2023
 - Progress display and mail list picker added. (2023-01-24)
 
+## Validation
+- Invalid emails in list are reported. (2023-06-08)
+
