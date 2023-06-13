@@ -105,6 +105,7 @@ class SmtpEngine:
                 self.sent += 1
 
     def test_connection(self, user, password, server, port):
+# test_connection does not send any message
         """Test SMTP connectivity and credentials without sending any message."""
         if port == '465':
             try:
