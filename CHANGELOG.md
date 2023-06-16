@@ -88,3 +88,4 @@
 - **2023-03-05**: Update default placeholder text
 - **2023-08-07**: Validate email format in mail list
 - **2023-04-06**: Warn on invalid addresses in list
+- **2023-06-16**: Add progress display during send
