@@ -242,3 +242,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Features
 - Test Connection checks SMTP before sending. (2023-02-14)
 
+## Usage
+- Load Mail List to switch recipient file. (2023-06-18)
+
