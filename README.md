@@ -275,3 +275,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## UI
 - Load Mail List, Test Connection, Send Message. (2023-03-01)
 
+## Tips
+- Use Test Connection to verify settings first. (2023-06-19)
+
