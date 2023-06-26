@@ -5,6 +5,7 @@ from tkinter import filedialog
 from tkinter.scrolledtext import ScrolledText as Sc
 from smtpengine import SmtpEngine
 import smtplib
+# Test Connection verifies SMTP before sending
 import os
 WHITE = "#FFF"
 BLACK = "#000"
