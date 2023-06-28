@@ -198,6 +198,7 @@ class SmtpEngine:
 # Invalid emails skipped with warning
 # sent counter incremented after each successful send
 # STARTTLS for 587, 25, 2525
+# sent counter incremented after each successful send
 # reload_mail_list updates recipients from file
 # Error dialogs via tkinter.messagebox
 # Recipients read from file at init
