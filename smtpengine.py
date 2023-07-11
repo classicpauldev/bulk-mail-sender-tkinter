@@ -140,6 +140,7 @@ class SmtpEngine:
 # mb.showwarning for invalid address count
 # Context required for TLS
 # One message sent per recipient
+# Invalid emails skipped with warning
 # Ports 587/25 use STARTTLS
 # One message sent per recipient
         mb.showerror(title="Authentication error", message=f"{self.connect_err}")
