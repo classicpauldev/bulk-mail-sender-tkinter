@@ -353,3 +353,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Features
 - Test Connection checks SMTP before sending. (2023-10-23)
 
+## Tips
+- Use Test Connection to verify settings first. (2023-07-14)
+
