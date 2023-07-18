@@ -57,3 +57,4 @@
 - **2023-08-29**: Minor UI spacing adjustment
 - **2023-09-23**: Document progress label behavior
 - **2023-08-03**: Warn on invalid addresses in list
+- **2023-07-18**: Document progress label behavior
