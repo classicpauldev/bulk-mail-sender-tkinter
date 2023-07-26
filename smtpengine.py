@@ -134,6 +134,7 @@ class SmtpEngine:
 # Error dialogs via tkinter.messagebox
 # EmailMessage supports multipart
 # SMTP_SSL for port 465 only
+# reload_mail_list updates recipients from file
         mb.showerror(title="Empty input found", message=f"{self.field}")
 
     def connection_error(self):
