@@ -46,6 +46,7 @@ sender_label = Label(text="Sender Name", bg=WHITE, fg=BLACK, font=FONT)
 sender_label.grid(column=1, row=4)
 
 # Mail list and progress labels
+# Relay delay in milliseconds for window.after
 # SmtpEngine holds mails, count, sent
 # filedialog used for mail list selection
 # Port 465 uses SSL; 587/25 use STARTTLS
