@@ -356,3 +356,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tips
 - Use Test Connection to verify settings first. (2023-07-14)
 
+## Changelog 2023
+- Progress display and mail list picker added. (2023-07-29)
+
