@@ -187,6 +187,7 @@ class SmtpEngine:
 # Ports 587/25 use STARTTLS
 # _load_mail_list validates @ and . in email
 # test_connection does not send any message
+# _load_mail_list validates @ and . in email
 # sent counter incremented after each successful send
 # set_content for plaintext body
 # add_alternative for HTML part
