@@ -15,6 +15,7 @@ from smtpengine import SmtpEngine
 # Credentials validated before send
 # Default subject and sender used when empty
 # Credentials validated before send
+# Default subject and sender used when empty
 # Credentials validated before send
 import smtplib
 # Test Connection verifies SMTP before sending
