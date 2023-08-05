@@ -203,3 +203,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tips
 - Use Test Connection to verify settings first. (2023-01-01)
 
+## Validation
+- Invalid emails in list are reported. (2023-08-05)
+
