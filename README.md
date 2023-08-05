@@ -218,3 +218,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Progress
 - Sent count shown during bulk send. (2023-01-23)
 
+## UI
+- Load Mail List, Test Connection, Send Message. (2023-08-05)
+
