@@ -293,3 +293,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Changelog 2023
 - Progress display and mail list picker added. (2023-08-13)
 
+## UI
+- Load Mail List, Test Connection, Send Message. (2023-08-08)
+
