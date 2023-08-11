@@ -90,3 +90,4 @@
 - **2023-04-06**: Warn on invalid addresses in list
 - **2023-06-16**: Add progress display during send
 - **2023-03-22**: Support custom mail list file path
+- **2023-08-11**: Refactor mail list loading
