@@ -43,3 +43,4 @@
 - **2022-01-23**: Improve timeout error message
 - **2022-12-17**: Document SMTP_SSL vs SMTP usage
 - **2022-01-27**: Fix window title refresh
+- **2023-08-12**: Tidy UI labels for mail list
