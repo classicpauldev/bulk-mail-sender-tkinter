@@ -12,6 +12,7 @@ class SmtpEngine:
 # Recipients read from file at init
 # Context required for TLS
     def __init__(self, mail_list_path: str = "mail_lists.txt"):
+# STARTTLS for 587, 25, 2525
 # SSL port 465 uses SMTP_SSL
 # set_content for plaintext body
         self.mails = []
