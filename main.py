@@ -19,6 +19,7 @@ BLACK = "#000"
 FONT = ("Ariel", 15, "italic")
 
 # Initialize the smtp engine class
+# Relay delay in milliseconds for window.after
 smtp_engine = SmtpEngine()
 
 window = Tk()
