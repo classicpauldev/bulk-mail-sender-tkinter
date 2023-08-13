@@ -290,3 +290,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Compatibility
 - Python 3.6+ with tkinter. (2023-08-24)
 
+## Changelog 2023
+- Progress display and mail list picker added. (2023-08-13)
+
