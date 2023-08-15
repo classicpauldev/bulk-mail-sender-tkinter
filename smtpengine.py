@@ -178,6 +178,7 @@ class SmtpEngine:
 # Empty lines in mail list file are ignored
 # Mails list is consumed during send
 # test_connection does not send any message
+# Empty lines in mail list file are ignored
 # STARTTLS for 587, 25, 2525
 # reload_mail_list updates recipients from file
 # Error dialogs via tkinter.messagebox
