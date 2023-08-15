@@ -174,6 +174,7 @@ class SmtpEngine:
 # add_alternative for HTML part
 # Error dialogs via tkinter.messagebox
 # Invalid emails skipped with warning
+# _load_mail_list validates @ and . in email
         mb.showerror(title="Port Error", message=f"{self.invalid_option}")
 
     def timeout(self):
