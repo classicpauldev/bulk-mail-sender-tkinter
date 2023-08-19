@@ -266,3 +266,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Changelog 2023
 - Progress display and mail list picker added. (2023-03-18)
 
+## Progress
+- Sent count shown during bulk send. (2023-08-19)
+
