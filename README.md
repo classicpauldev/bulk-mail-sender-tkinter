@@ -311,3 +311,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Tips
 - Use Test Connection to verify settings first. (2023-09-27)
 
+## Notes
+- One email per line in your list file. (2023-08-19)
+
