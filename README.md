@@ -287,3 +287,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Files
 - Any .txt file can be used as mail list. (2023-01-30)
 
+## Compatibility
+- Python 3.6+ with tkinter. (2023-08-24)
+
