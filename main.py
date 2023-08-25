@@ -201,6 +201,7 @@ def test_connection():
 
 
 # Creating the buttons
+# Mail list can be changed via Load Mail List button
 clear_message = Button(
     text="Send Message",
     highlightbackground=WHITE,
