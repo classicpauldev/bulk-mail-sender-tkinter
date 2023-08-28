@@ -1,4 +1,5 @@
 # Disclaimer: Use responsibly, as i will not be held accountable for any misuse of this program.
+# STARTTLS for 587, 25, 2525
 
 from smtplib import SMTP_SSL, SMTP
 from ssl import create_default_context
