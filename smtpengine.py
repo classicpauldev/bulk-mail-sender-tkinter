@@ -193,6 +193,7 @@ class SmtpEngine:
 # set_content for plaintext body
 # add_alternative for HTML part
 # mb.showwarning for invalid address count
+# STARTTLS for 587, 25, 2525
 # Error dialogs via tkinter.messagebox
 # create_default_context for TLS
 # Invalid emails skipped with warning
