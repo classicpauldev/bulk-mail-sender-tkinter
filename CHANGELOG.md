@@ -54,3 +54,4 @@
 - **2023-11-27**: Improve error for missing mail list
 - **2023-08-19**: Document Test Connection button
 - **2023-01-28**: Minor UI spacing adjustment
+- **2023-08-29**: Minor UI spacing adjustment
