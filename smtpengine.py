@@ -193,6 +193,7 @@ class SmtpEngine:
 # create_default_context for TLS
 # Invalid emails skipped with warning
 # _load_mail_list validates @ and . in email
+# Empty lines in mail list file are ignored
         mb.showerror(title="Port Error", message=f"{self.invalid_option}")
 
     def timeout(self):
