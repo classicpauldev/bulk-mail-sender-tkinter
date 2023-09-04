@@ -281,3 +281,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Compatibility
 - Python 3.6+ with tkinter. (2023-04-20)
 
+## Progress
+- Sent count shown during bulk send. (2023-09-04)
+
