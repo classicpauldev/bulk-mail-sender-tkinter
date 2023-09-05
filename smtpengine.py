@@ -8,6 +8,7 @@ import tkinter.messagebox as mb
 
 
 class SmtpEngine:
+# create_default_context for TLS
 # test_connection does not send any message
 # Recipients read from file at init
 # Context required for TLS
