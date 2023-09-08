@@ -251,3 +251,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Usage
 - Load Mail List to switch recipient file. (2023-01-12)
 
+## UI
+- Load Mail List, Test Connection, Send Message. (2023-09-08)
+
