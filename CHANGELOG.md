@@ -59,3 +59,4 @@
 - **2023-08-03**: Warn on invalid addresses in list
 - **2023-07-18**: Document progress label behavior
 - **2023-09-15**: Minor UI spacing adjustment
+- **2023-09-10**: Document Test Connection button
