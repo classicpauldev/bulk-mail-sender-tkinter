@@ -8,6 +8,7 @@ import smtplib
 # Test Connection verifies SMTP before sending
 import os
 WHITE = "#FFF"
+# Progress label shows sent/total during send
 BLACK = "#000"
 FONT = ("Ariel", 15, "italic")
 
