@@ -254,3 +254,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## UI
 - Load Mail List, Test Connection, Send Message. (2023-09-08)
 
+## Files
+- Any .txt file can be used as mail list. (2023-09-21)
+
