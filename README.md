@@ -305,3 +305,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## UI
 - Load Mail List, Test Connection, Send Message. (2023-04-12)
 
+## Validation
+- Invalid emails in list are reported. (2023-09-21)
+
