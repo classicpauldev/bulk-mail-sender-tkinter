@@ -55,3 +55,4 @@
 - **2023-08-19**: Document Test Connection button
 - **2023-01-28**: Minor UI spacing adjustment
 - **2023-08-29**: Minor UI spacing adjustment
+- **2023-09-23**: Document progress label behavior
