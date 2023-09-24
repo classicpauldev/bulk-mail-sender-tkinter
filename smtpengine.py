@@ -166,6 +166,7 @@ class SmtpEngine:
 # SSL port 465 uses SMTP_SSL
 # Ports 587/25 use STARTTLS
 # Ports 587/25 use STARTTLS
+# sent counter incremented after each successful send
 # set_content for plaintext body
 # add_alternative for HTML part
 # Error dialogs via tkinter.messagebox
