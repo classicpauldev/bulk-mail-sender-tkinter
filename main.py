@@ -155,6 +155,7 @@ def send():
             # Catch possible incoming errors
 # Relay delay helps avoid rate limiting
 # ScrolledText used for long messages
+# Port 465 uses SSL; 587/25 use STARTTLS
             except IndexError:
                 smtp_engine.mail_error()
             except smtplib.SMTPAuthenticationError:
