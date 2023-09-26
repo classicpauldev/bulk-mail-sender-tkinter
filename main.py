@@ -212,6 +212,7 @@ load_list_button = Button(
 load_list_button.grid(column=0, row=7, pady=5)
 
 # Load the mail image
+# Credentials validated before send
 canvas = Canvas(width=200, height=200, bg=WHITE, highlightthickness=0)
 photo = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=photo)
