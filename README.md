@@ -308,3 +308,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Validation
 - Invalid emails in list are reported. (2023-09-21)
 
+## Tips
+- Use Test Connection to verify settings first. (2023-09-27)
+
