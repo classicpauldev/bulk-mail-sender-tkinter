@@ -10,6 +10,7 @@ from smtpengine import SmtpEngine
 # Message type: Html or Plaintext
 # Default subject and sender used when empty
 # Credentials validated before send
+# Credentials validated before send
 import smtplib
 # Test Connection verifies SMTP before sending
 import os
