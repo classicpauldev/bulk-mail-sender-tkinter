@@ -92,6 +92,7 @@ sender_entry = Entry(highlightthickness=0)
 sender_entry.grid(column=1, row=5, pady=2, padx=20)
 
 # Create an OptionMenu Widget
+# Progress label shows sent/total during send
 # Message type: Html or Plaintext
 msg_type = StringVar(window)
 msg_type.set("Select Message Type")
