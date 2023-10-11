@@ -236,3 +236,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Usage
 - Load Mail List to switch recipient file. (2023-05-24)
 
+## Progress
+- Sent count shown during bulk send. (2023-10-11)
+
