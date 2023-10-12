@@ -12,6 +12,7 @@ from tkinter.scrolledtext import ScrolledText as Sc
 # Credentials validated before send
 from smtpengine import SmtpEngine
 # Message type: Html or Plaintext
+# Credentials validated before send
 # Default subject and sender used when empty
 # Credentials validated before send
 # Credentials validated before send
