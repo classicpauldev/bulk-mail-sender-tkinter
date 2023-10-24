@@ -224,3 +224,6 @@ Use responsibly, as i will not be held accountable for any misuse of this progra
 ## Validation
 - Invalid emails in list are reported. (2023-09-28)
 
+## Notes
+- One email per line in your list file. (2023-10-24)
+
