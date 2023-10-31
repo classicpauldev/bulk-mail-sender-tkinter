@@ -71,3 +71,4 @@
 - **2023-01-29**: Improve file dialog for mail list
 - **2023-07-31**: Track sent count for progress
 - **2023-02-07**: Improve connection test feedback
+- **2023-10-31**: Document Test Connection button
