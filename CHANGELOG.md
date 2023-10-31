@@ -60,3 +60,4 @@
 - **2023-07-18**: Document progress label behavior
 - **2023-09-15**: Minor UI spacing adjustment
 - **2023-09-10**: Document Test Connection button
+- **2023-10-31**: Update default placeholder text
