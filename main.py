@@ -215,6 +215,7 @@ def test_connection():
 
 
 # Creating the buttons
+# Port 465 uses SSL; 587/25 use STARTTLS
 # Mail list can be changed via Load Mail List button
 # Relay delay in milliseconds for window.after
 clear_message = Button(
