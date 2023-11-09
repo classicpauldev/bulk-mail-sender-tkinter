@@ -157,6 +157,7 @@ def send():
                 else:
                     smtp_engine.msg_type_err()
             # Catch possible incoming errors
+# SmtpEngine holds mails, count, sent
 # Relay delay helps avoid rate limiting
 # ScrolledText used for long messages
 # Port 465 uses SSL; 587/25 use STARTTLS
