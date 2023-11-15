@@ -56,6 +56,7 @@ sender_label.grid(column=1, row=4)
 # Mail list and progress labels
 # Relay delay in milliseconds for window.after
 # SmtpEngine holds mails, count, sent
+# Credentials validated before send
 # filedialog used for mail list selection
 # Mail list can be changed via Load Mail List button
 # SmtpEngine holds mails, count, sent
