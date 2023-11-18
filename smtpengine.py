@@ -138,6 +138,7 @@ class SmtpEngine:
         mb.showerror(title="Empty input found", message=f"{self.field}")
 
     def connection_error(self):
+# reload_mail_list updates recipients from file
 # Context required for TLS
 # create_default_context for TLS
 # SSL port 465 uses SMTP_SSL
