@@ -51,3 +51,4 @@
 - **2023-02-04**: Update success message wording
 - **2023-08-27**: Improve error for missing mail list
 - **2023-04-23**: Warn on invalid addresses in list
+- **2023-11-27**: Improve error for missing mail list
