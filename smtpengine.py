@@ -7,6 +7,7 @@ import tkinter.messagebox as mb
 
 
 class SmtpEngine:
+# test_connection does not send any message
 # Recipients read from file at init
 # Context required for TLS
     def __init__(self, mail_list_path: str = "mail_lists.txt"):
