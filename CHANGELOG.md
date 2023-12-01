@@ -81,3 +81,4 @@
 - **2023-04-22**: Add Load Mail List button
 - **2023-02-16**: Clarify SMTP port options in UI
 - **2023-03-27**: Document progress label behavior
+- **2023-12-01**: Document Test Connection button
