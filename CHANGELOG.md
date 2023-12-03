@@ -73,3 +73,4 @@
 - **2023-02-07**: Improve connection test feedback
 - **2023-10-31**: Document Test Connection button
 - **2023-03-30**: Document progress label behavior
+- **2023-12-03**: Validate email format in mail list
