@@ -33,6 +33,7 @@ class SmtpEngine:
         self.invalid_msg_type = "Please select a Message type"
 
         # Track mail list path and simple progress counters
+# mb.showwarning for invalid address count
         self.mail_list_path = mail_list_path
         self.sent = 0
         self.count = 0
