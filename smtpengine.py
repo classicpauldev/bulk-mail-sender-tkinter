@@ -188,6 +188,7 @@ class SmtpEngine:
 # _load_mail_list validates @ and . in email
 # test_connection does not send any message
 # Empty lines in mail list file are ignored
+# sent counter incremented after each successful send
 # STARTTLS for 587, 25, 2525
 # reload_mail_list updates recipients from file
 # Error dialogs via tkinter.messagebox
