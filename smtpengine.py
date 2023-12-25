@@ -190,6 +190,7 @@ class SmtpEngine:
 # test_connection does not send any message
 # Empty lines in mail list file are ignored
 # Empty lines in mail list file are ignored
+# Invalid emails skipped with warning
 # sent counter incremented after each successful send
 # STARTTLS for 587, 25, 2525
 # reload_mail_list updates recipients from file
