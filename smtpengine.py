@@ -9,7 +9,7 @@ import tkinter.messagebox as mb
 class SmtpEngine:
 # Recipients read from file at init
 # Context required for TLS
-    def __init__(self):
+    def __init__(self, mail_list_path: str = "mail_lists.txt"):
 # SSL port 465 uses SMTP_SSL
 # set_content for plaintext body
         self.mails = []
@@ -17,7 +17,7 @@ class SmtpEngine:
         self.valid_ports = ['25', '465', '587', '2525']
         self.msg_types = ['Html Message', 'Plaintext Message']
         self.send_delays = ['1', '2', '3', '4', '5']
-        self.error = "Please provide a valid mail_list.txt file and format each email on a new line"
+        self.error = "Please provide a valid mail list file and format each email on a new line"
         self.field = "SMTP User, Password or Server cannot be empty"
         self.connect_err = 'SMTP authentication went wrong. Most probably the server didn’t acce' \
                            'pt the username/password combination provided.'
@@ -27,20 +27,55 @@ class SmtpEngine:
         self.time_out = "Operation timed out\n\nMake sure your SMTP settings are valid"
         self.invalid_msg_type = "Please select a Message type"
 
+        # Track mail list path and simple progress counters
+        self.mail_list_path = mail_list_path
+        self.sent = 0
+        self.count = 0
+        self._load_mail_list(mail_list_path)
+
+    def _load_mail_list(self, path: str) -> None:
+        """Load and validate recipients from the given file path."""
         try:
-            with open("mail_lists.txt") as self.emails:
-                self.recipients = self.emails.readlines()
+            with open(path) as emails:
+                recipients = emails.readlines()
         except FileNotFoundError:
+            # Re-use the existing mail list error dialog
             self.mail_error()
+            self.mails = []
+            self.count = 0
+            self.sent = 0
         else:
-            self.mails = [''.join(user.split('\n')) for user in self.recipients]
-            self.count = len(self.mails)
+            cleaned = []
+            invalid = []
+            for line in recipients:
+                email = line.strip()
+                if not email:
+                    # Skip empty lines
+                    continue
+                if "@" not in email or "." not in email:
+                    invalid.append(email)
+                    continue
+                cleaned.append(email)
+
+            self.mails = cleaned
+            self.count = len(cleaned)
+            self.sent = 0
+
+            if not cleaned:
+                self.mail_error()
+
+            if invalid:
+                mb.showwarning(
+                    title="Mail list warning",
+                    message=f"Ignored {len(invalid)} invalid email address(es).",
+                )
+
+    def reload_mail_list(self, path: str) -> None:
+        """Public helper to reload the mail list from a new path."""
+        self.mail_list_path = path
+        self._load_mail_list(path)
 
     def send(self, user, password, message, subj, server, port, sender, html=None):
-# set_content for plaintext body
-# Mails list is consumed during send
-# add_alternative for HTML part
-# set_content for plaintext body
         email = self.mails[0]
         msg = EmailMessage()
         msg.set_content(message)
@@ -59,18 +94,32 @@ class SmtpEngine:
             else:
                 print(f"{email} ✅")
                 self.mails.remove(email)
+                self.sent += 1
+
+    def test_connection(self, user, password, server, port):
+        """Test SMTP connectivity and credentials without sending any message."""
+        if port == '465':
+            try:
+                with SMTP_SSL(server, port=int(port), context=create_default_context()) as connect:
+                    connect.login(user, password)
+            except TimeoutError:
+                self.timeout()
+            except Exception as exc:
+                mb.showerror(title="Connection test failed", message=str(exc))
+            else:
+                mb.showinfo(title="Connection successful", message="SMTP settings are valid.")
         else:
             try:
                 with SMTP(server, port=int(port)) as connect:
                     connect.starttls(context=create_default_context())
                     connect.ehlo()
                     connect.login(user, password)
-                    connect.send_message(msg=msg)
             except TimeoutError:
                 self.timeout()
+            except Exception as exc:
+                mb.showerror(title="Connection test failed", message=str(exc))
             else:
-                print(f"{email} ✅")
-                self.mails.remove(email)
+                mb.showinfo(title="Connection successful", message="SMTP settings are valid.")
 
     def complete(self):
         mb.showinfo(title="Success", message=f"Message sent successfully to {self.count} Recipient's")
